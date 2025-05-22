@@ -90,6 +90,7 @@ Runs the backend for TTS using Deepgram to convert the insights received and pla
 - View the result below, and click Play to hear the result as audio.
 
 ![How the running app will look](NLTOSQL_Enhanced.png)
+![Another Example](NLSQL_Enhanced2.png)
 
 ## Basic Troubleshooting
 
