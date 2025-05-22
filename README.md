@@ -6,9 +6,6 @@ This project is a real-time web application that:
 - Lets you run the transcribed text as a natural language query on a MySQL database using an LLM-powered NL-to-SQL chain.
 - Optionally, converts query results to speech (TTS) and plays them back in the browser.
 
-## What is Deepgram?
-
-[Deepgram’s](https://deepgram.com/) voice AI platform provides APIs for speech-to-text, text-to-speech, and full speech-to-speech voice agents. Over 200,000+ developers use Deepgram to build voice AI products and features.
 
 ## Sign-up to Deepgram and OpenAI and Get API key
 
@@ -91,6 +88,8 @@ Runs the backend for TTS using Deepgram to convert the insights received and pla
 - Speak into your microphone; captions will appear in real time.
 - Click Run on Database to send the transcription as a query to the database.
 - View the result below, and click Play to hear the result as audio.
+
+![How the running app will look](NLTOSQL_Enhanced.png)
 
 ## Basic Troubleshooting
 
