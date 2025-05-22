@@ -122,8 +122,8 @@ def prompt_creation(example_path):
 
 def rephrase_answer(llm):
     answer_prompt = PromptTemplate.from_template(
-    """Given the following user question, corresponding SQL query, and SQL result, identify the language of the user question and answer the user question in the same language with an inroductory statement followed by the answer in a structured pointwise manner
-        and return only the answer in markdown format. DO NOT INCLUDE MARKDOWN IN THE SQL QUERY.
+    """Given the following user question, corresponding SQL query, and SQL result, correctly identify the language of the user question and and answer the question in english only with an inroductory statement followed by the answer in a structured pointwise manner
+        and return only the answer in markdown format. DO NOT INCLUDE MARKDOWN IN THE SQL QUERY. DO NOT INCLUDE LANGUAGE IDENTIFICATION OR MENTION THE LANGUAGE INANY WAY IN THE ANSWER.
 
         Question: {question}
         SQL Query: {query}
