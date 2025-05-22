@@ -98,3 +98,7 @@ Runs the backend for TTS using Deepgram to convert the insights received and pla
 - If audio does not play, ensure your browser has microphone permissions and your system has ffmpeg and portaudio installed.
 - Check your .env file for correct API keys.
 
+## References
+
+This code UI was implemented using the Live Transcription app made available by DeepGram [here](https://github.com/deepgram-starters/flask-live-transcription)
+
